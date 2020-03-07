@@ -1,0 +1,509 @@
+.vacancy {
+	// padding: 0 0;
+	background-image: url('../images/about.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+	padding-bottom: 100px;
+	@media (max-width: $width-md) {
+		background-image: none;
+		background: #fff;
+	}
+	&::after {
+		content: '';
+		@include pos($t:72px, $l:0);
+		background: rgba(255,255,255, 0.6);
+		width: 100%;
+		height: calc(100% - 72px);
+		@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+			height: 100%;
+			top: 0;
+		}
+		@media (max-height: 414px) and (max-width: $iphonex-landscape + 30px) {
+			height: 100%;
+			top: 0;
+		}
+	}
+	@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+		padding-top: 50px;
+	}
+	@media (max-height: 414px) and (max-width: $iphonex-landscape + 30px) {
+		height: 100%;
+		top: 0;
+		padding-top: 50px;
+	}
+	@media (max-width: $width-sm) and (max-height: $width-lg) {
+		padding-top: 0;
+	}
+
+	&__nav {
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		color: #000;
+		font-family: $font-title;
+		position: relative;
+		z-index: 10;
+		@media (max-width: $width-sm) and (max-height: $width-lg) {
+			flex-direction: column;
+			align-items: flex-end;
+			position: fixed;
+			background: #fff;
+			top: 0;
+			right: -100%;
+			z-index: 99;
+			justify-content: flex-start;
+			padding: 20px;
+			transition: all .3s;
+			width: 100%;
+			height: 100%;
+		}
+		&--menu {
+			right: 0;
+		}
+		&-wrap {
+			background: #fff;
+			text-align: center;
+			padding: 20px;
+			position: relative;
+
+
+			
+
+		}
+		
+		&-tabs {
+			border: none;
+			display: flex;
+			justify-content: center;
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				justify-content: flex-end;
+				position: relative;
+			}
+		}
+		&-link {
+			color: #000;
+			transition: .1s;
+			width: 12.5%;
+			font-size: 1.3rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			border: 1px solid #000;
+			img {
+				width: 25px;
+				height: 25px;
+				margin-right: 5px;
+				position: relative;
+				top: -2px;
+				border-radius: 20px;
+				@media (max-width: $ipad-height) {
+					display: none;
+				}
+			}
+			&--large {
+				width: 25%;
+			}
+			@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+				width: 30%;
+				text-align: center;
+				padding: 10px 0;
+				font-size: 1.2rem;
+			}
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				width: 80%;
+				text-align: right;
+				display: block;
+				padding: 10px;
+				font-size: 1.5rem;
+			}
+			&:hover {
+				color: darken(#a9e949, 10%);
+				border: none;
+				
+			}
+		}
+	}
+	&__title {
+		font-size: 2rem;
+		color: #000;
+		position: relative;
+		z-index: 10;
+		text-transform: uppercase;
+
+		&-wrap {
+			background: #fff;
+			text-align: center;
+			padding: 20px;
+			position: relative;
+			@media (max-width: $width-lg) and (max-height: $ipad-height) {
+				padding: 22px;
+			}
+			@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+				display: none;
+			}
+			@media (max-height: 414px) and (max-width: $iphonex-landscape + 30px) {
+				display: none;
+			}
+			&::before {
+				content: '';
+				background-image: url('../images/flag.jpg');
+				background-size: cover;
+				opacity: .5;
+				width: 100%;
+				height: 100%;
+				@include pos($t:0, $l:0	);	
+			}
+		}
+	}
+	&__desc {
+		font-size: 1.5rem;
+		text-align: center;
+		font-style: italic;
+		// background: rgba(255,255,255, .9);
+		width: 70%;
+		padding: 10px 20px;
+		margin: 0 auto;
+		margin-top: 50px;
+		border-radius: 20px;
+		// opacity: .7;
+		margin-bottom: 50px;
+		z-index: 10;
+		position: relative;
+		background: rgba(#aaea49, .9);
+		color: #fff;
+		opacity: 1;
+		&--green {
+
+		}
+
+		@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+			margin-top: 0;
+		}
+		@media (max-height: 414px) and (max-width: $iphonex-landscape + 30px) {
+			margin-top: 0;
+		}
+	}
+	&__content {
+		position: relative;
+		z-index: 10;
+	}
+
+	&__img {
+		width: 100%;
+		max-height: 250px;
+		border-bottom: 3px solid #76b616;
+		margin-bottom: 10px;
+		@media (max-width: $width-lg) {
+			max-height: none;
+		}
+		
+	}
+	&__block {
+		color: #000;
+		background: #fff;
+		padding: 20px 40px 50px;
+		width: 90%;
+		height: 100%;
+		margin-bottom: 20px;
+		position: relative;
+		@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+			width: 100%;
+			padding: 10px;
+			padding-bottom: 40px;
+		}
+		&-wrap {
+			display: flex;
+			justify-content: center;
+			@media (max-width: $width-lg) {
+				margin-bottom: 40px;
+			}
+
+		}
+	}
+	&__name {
+		font-weight: 700;
+		font-family: $font-title;
+		font-size: 1.2rem;
+		margin-bottom: 20px;
+	}
+	&__requirement {
+		margin-bottom: 5px;
+		font-family: $font-title;
+		span {
+			color: #76b616;
+		}
+	}
+	&__oblige {
+		color: #76b616;
+		font-weight: 700;
+		font-family: $font-title;
+		&-list {
+
+		}
+		&-item {
+			position: relative;
+			margin-left: 15px;
+			&::before {
+				content: '';
+				@include pos($l: -15px,$t: 5px);
+				background: #76b616;
+				@include size(6px); 
+				border-radius: 50%;
+			}
+		}
+	}
+	&__schedule {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		span {
+			color: #76b616;
+			font-weight: 700;
+			font-family: $font-title;
+		}
+	}
+	&__sallary {
+		font-family: $font-title;
+		font-weight: 700;
+		margin-bottom: 5px;
+		span {
+			color: #76b616;
+		}
+	}
+	&__location {
+		font-family: $font-title;
+		font-weight: 700;
+		margin-bottom: 20px;
+		span {
+			color: #76b616;
+		}
+	}
+	&__anchor {
+		font-size: 1.2rem;
+		font-family: $font-title;
+		letter-spacing: 3px;
+		font-weight: 700;
+		padding: 10px;
+		background: rgba(#94e41c,.7);
+		color: #fff;
+		box-shadow: 0 0 8px -2px rgba(#000, .5);
+		@include pos($b: 20px);
+
+		&:hover {
+			background: darken(#94e41c, 10%);
+			text-decoration: none;
+			color: #fff;
+		}
+
+	}
+	&__visa {
+		&-wrap {
+			width: 80%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
+			@media (max-width: $width-md) and (max-height: $ipad-height) {
+				width: 100%;
+			}
+		}
+		&-block {
+			width: 45%;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			// background: #fff;
+		}
+		&-title {
+			font-size: 2rem;
+			margin-bottom: 10px;
+			text-align: center;
+			span {
+				font-family: $font;
+				font-size: 1.3rem;
+				letter-spacing: 0px;
+			}
+		}
+		&-img {
+			width: 50%;
+			margin-bottom: 20px;
+		}
+		&-price {
+			width: 50%;
+			background: yellow;
+			font-family: $font-title;
+			font-weight: 700;
+			font-size: 1.5rem;
+			color: red;
+			padding: 10px;
+			border-radius: 20px;
+			display: flex;
+			justify-content: center;
+			@media (max-width: $width-lg) and (max-height: $width-lg) {
+				width: 100%;
+				
+			}
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				font-size: 1.3rem;
+			}
+			
+			span {
+				color: grey;
+				position: relative;
+				margin-right: 15px;
+				&::after {
+					content: '';
+					@include pos($l:-2px, $t:47%);
+					width: 110%;
+					height: 3px;
+					background: grey;
+				}
+			}
+		}
+	}
+	&__an {
+		&-list {
+			width: 60%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		&-item {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-family: $font-title;
+			font-weight: 700;
+			font-size: 1.5rem;
+			background: rgba(#4644e4, .5);
+			padding: 5px;
+			color: #ebeb00;
+			border-radius: 20px;
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				font-size: 1rem;
+			}
+		}
+	}
+	&__insurance {
+
+		&-wrap {
+			width: 60%;
+			margin: 0 auto;
+		}
+		&-list {
+			text-align: center;
+		}
+		&-item {
+			margin-bottom: 10px;
+			font-family: $font-title;
+			font-weight: 700;
+			font-size: 1.5rem;
+			background: rgba(#4644e4, .5);
+			padding: 15px 5px ;
+			color: #ebeb00;
+			// border-radius: 20px;
+		}
+	}
+	&__work {
+		&-img {
+			width: 50%;
+			margin: auto auto;
+			&--large {
+				width: 75%;
+			}
+		}
+		&-slider {
+			margin-top: 100px;
+			position: relative;
+			z-index: 10;
+			@media (max-height: $pro-height) and (max-width: $ipad-height) {
+				width: 80%;
+				margin: 0 auto;
+			}
+		}
+		&-slide {
+			width: 30%;
+			display: flex;
+			justify-content: center;
+			img {
+				
+			}
+		}
+		&-arrows {
+			display: flex;
+			position: relative;
+		}
+		&-next {
+			@include pos($b: 70px, $r:-80px);
+			z-index: 10;
+			@media (max-height: $pro-height) and (max-width: $ipad-height) {
+				right: 0;
+				bottom: 40px;
+			}
+		}
+		&-prev {
+			@include pos($b: 70px, $l:-80px);
+			z-index: 10;
+			@media (max-height: $pro-height) and (max-width: $ipad-height) {
+				left: 0;
+				bottom: 40px;
+			}
+		}
+	}
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #fff;
+	background:lighten(#a9e949, 10%); 
+}
+.nav-tabs .nav-link {
+	border: none;
+	// border-radius: 20px;
+}
+.chevron-next {
+	fill: darken(#bfef77, 10%);
+	cursor: pointer;
+	&:active {
+		fill: #fff;
+	}
+}
+.chevron-prev {
+	fill: darken(#bfef77, 10%);
+	cursor: pointer;
+	&:active {
+		fill: #fff;
+	}
+}
+.icon {
+	@include size(100px);
+	@media (max-width: $width-lg) and (max-height: $ipad-height) {
+		@include size(70px);
+	}
+}
+
+.slick-dots {
+	bottom: -50px;
+	color: transparent;
+}
+
+.slick-dots li {
+	background:transparent;
+	@include size(20px);
+	border-radius: 50%;
+	border: 3px solid darken(#bfef77, 10%);
+	color: transparent;
+	&:active {
+		background: #fff;
+	}	
+	button::before {
+		content: '';
+	}
+	@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+		@include size(15px);
+	}
+}
+.slick-dots li.slick-active {
+	background: darken(#bfef77, 10%);
+	pointer-events: none;
+}

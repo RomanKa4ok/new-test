@@ -1,0 +1,445 @@
+.header {
+	min-height: calc(100vh - 72px);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	transition: .3s;
+	
+	@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+		height: calc(100vh - 90px);
+	}
+	&--work {
+		min-height: 100%;
+		@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+			height: 100%;
+		}
+		// @media (max-width: $width-md) and (max-height: $width-lg) {
+		// 	height: calc(100vh - 90px);
+		// }
+	}
+	
+
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		z-index: 10;
+		margin-bottom: 20px;
+		background: #fff;
+		@media (max-width: $width-sm) and (max-height: $width-lg) {
+			height: 60px;
+			transition: .3s;
+			padding-top: 20px;
+		}
+		&--sticky {
+
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				position: fixed;
+				top: 0;
+				background: #fff;
+				z-index: 20;
+				width: 100%;
+				padding: 10px 0;
+
+			}
+		}
+
+
+		&-wrap {
+			background: rgba(255,255,255, .7);
+			width: 100%;
+			padding: 10px 0;
+			position: relative;
+			background: #fff;
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				padding: 0;
+			}
+		}
+		&--fill {
+			height: 0px;
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				height: 80px;
+				color: transparent;
+			}
+
+
+		}
+	}
+	&__slider {
+		height: 100%;
+	}
+	&__slide {
+		&-title {
+			font-size: 2rem;
+			margin-bottom: 40px;
+			@media (max-width: $width-lg) and (max-height: $width-sm) {
+				font-size: 1.3rem;
+			}
+		}
+		&-link {
+			font-size: 1.5rem;
+			border: 2px solid #fff;
+			color: #fff;
+			text-decoration: none;
+			font-family: $font-title;
+			letter-spacing: 2px;
+			font-weight: 700;
+			padding: 10px;
+			&:hover {
+				background: rgba(#bfef77, .7);
+				color: #fff;
+				text-decoration: none;
+				border: 2px solid rgba(#bfef77, .7);
+			}
+		}
+		&-wrap {
+			background: rgba(#000, .5);
+			color: #fff;
+			width: 40%;
+			padding: 40px 20px;
+			text-align: center;
+			position: relative;
+			@media (max-width: $ipad-height) {
+				padding: 40px 20px 70px;
+				margin-right: 30px;
+			}
+			@media (max-width: $width-sm) {
+				width: 80%;
+				margin: 0 auto;
+			}
+			@media (max-width: $width-lg) and (max-height: $width-sm) {
+				background: transparent;
+			}
+		}
+		&-container {
+			max-width: 1250px;
+			padding: 0 15px;
+			margin: 0 auto;
+			position: relative;
+			height: 100%;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			@media (max-width: $width-lg) {
+				padding: 0;
+			}
+		}
+		
+		&--poland {
+			background: url('../images/slider/poland.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+		&--czech {
+			background: url('../images/slider/czech.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+		&--slowakei {
+			background: url('../images/slider/slow.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+		&--italy {
+			background: url('../images/slider/italy.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+		&--schweiz {
+			background: url('../images/slider/schweiz.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+		&--holland {
+			background: url('../images/slider/hol.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+		&--hungary {
+			background: url('../images/slider/hun.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+		&--pribaltika {
+			background: url('../images/slider/pri.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: calc(100vh - 220px);
+		}
+
+	}
+
+	&__logo {
+		@media (max-width: $width-sm) and (max-height: $width-lg) {
+			display: none;
+		}
+		&-link {
+
+		}
+		&-img {
+			width: 100px;
+			height: 70px;
+		}
+	}
+	&__list {
+		display: flex;
+		width: 30%;
+		justify-content: space-between;
+		align-items: center;
+		@media (max-width: 424px) and (max-height: $iphonex-landscape +30px) {
+			display: none;
+		}
+
+	}
+	&__item {
+		
+		
+
+	}
+	&__telephone {
+		&-list {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+				height: 70%;
+				margin-top: 5px;
+			}
+		}
+		&-link {
+			text-decoration: none;
+			color: rgba(#000, .7);
+			font-size: 1.2rem;
+			font-family: $font-two;
+			font-weight: 700;
+			margin-left: 5px;
+			letter-spacing: 2px;
+			@media (max-width: $width-sm) and (max-height: $width-lg) {
+				
+			}
+			&:hover {
+				color: darken(#bfef77,10%) ;
+				text-decoration: none;
+			}
+		}
+		img {
+			@include size(17px);
+			@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+				@include size(14px);
+				position: relative;
+				top: 2px;
+			}
+		}
+	}
+	&__social {
+		&-list {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+		}
+		&-link {
+			margin-left: 5px;
+			text-decoration: none;
+			img {
+				width: 30px;
+				
+				&:hover {
+					transform: scale(1.1);
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	&__wrap {
+		position: relative;
+		background: rgba(255,255,255, .7);
+		width: 50%;
+		padding: 40px 20px 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 20px;
+		height: 300px;
+		@media (max-height: $pro-height) and (max-width: $ipad-height) {
+			width: 100%;
+			padding: 40px 70px 0;
+		}
+		@media (max-width: $width-lg) and (max-height: $width-sm) {
+			border-radius: 0px;
+		}
+		@media (max-width: 414px) and (max-height: $iphonex-landscape + 30px) {
+			padding: 20px 10px;
+			width: 90%;
+			margin: 0 auto;
+		}
+	}
+	&__title {
+		font-size: 2rem;
+		margin-bottom: 30px;
+		position: relative;
+		font-weight: 700;
+		z-index: 10;
+		&::after {
+			content: '';
+			@include pos($b: -10px, $l: 0);
+			width: 99%;
+			height: 3px;
+			background: darken(#a9e949, 10%); 
+		}	
+	}
+	&__desc {
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+		z-index: 10;
+		color: #000;
+		font-family: $font;
+
+	}
+	&__link {
+		color: #000;
+		
+		text-transform: uppercase;
+		font-weight: 700;
+		
+		font-family: $font-title;
+		letter-spacing: 3px;
+		font-size: 1.5rem;	
+		&:hover {
+			color: red;
+			text-decoration: none;
+		}
+
+	}
+	&__quote {
+		display: flex;
+		align-items: center;
+		font-family: $font-two;
+		font-weight: 700;
+		opacity: .8;
+		text-align: center;
+		flex-direction: column;
+		justify-content: center;
+		span {
+			color:  darken(#a9e949, 20%);
+		}
+		@media (max-width: $width-lg) {
+			display: none;
+		}
+	}
+	&__location {
+		display: flex;
+		align-items: center;
+		font-family: $font-two;
+		font-weight: 700;
+		opacity: .8;
+		text-align: center;
+		position: relative;
+		i {
+			@include pos($l: -30px);
+			color: #a9e949;
+			font-size: 2rem;
+		}
+		@media (max-width: $width-lg) {
+			display: none;
+		}
+	}
+	&__schedule {
+		font-family: $font-two;
+		font-weight: 700;
+		opacity: .8;
+		display: flex;
+		align-items: center;
+		
+		span {
+			width: 55px;
+			display: block;
+			margin-right: 15px;
+			color: darken(#a9e949, 20%);
+		}
+		&-wrap {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			width: 20%;
+			@media (max-width: $width-lg) {
+				display: none;
+			}
+		}	
+	}
+	&__button {
+		width: 45%;
+		font-size: 1.5rem;
+		background: rgba(#94e41c, .8);
+		color: #fff;
+		font-family: $font-title;
+		height: 50px;
+		z-index: 20;
+		@include pos($b: 40px, $l: 50%);
+		cursor: pointer;
+		transition: .1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transform: translateX(-50%);
+		border-radius: 10px;
+		@media (max-width: $ipad-height) {
+			bottom: 30px;
+			width: 90%;
+		}
+		@media (max-width: $width-lg) and (max-height: $width-sm) {
+			bottom: 50px;
+		}
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+			background: #94e41c;
+		}
+		
+		&-anim {
+			background: rgba(#bfef77, .8);
+			height: 50px;
+			width: 50%;
+			z-index: 10;
+			border-radius: 10px;
+			animation:  button 2s ease-in-out infinite;
+			margin: 0 auto;
+			@media (max-height: $pro-height) and (max-width: $ipad-height) {
+				display: none;
+			}
+		}
+
+	}
+	
+}
+@keyframes button {
+	from {opacity: 2;}
+	to {opacity: 0};
+	from {width: 50%}
+	to {width: 60%}
+	from {border-radius: 10px}
+	to {border-radius: 20px}
+
+
+}
+.slick-list {
+	height: 100%;
+}
+.slick-track {
+	height: 100%;
+}

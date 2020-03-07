@@ -1,0 +1,89 @@
+.login {
+	height: 100vh;
+	background-image: url('../images/about.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 10px 0;
+	&::after {
+		content: '';
+		@include size(100%);
+		background: rgba(255,255,255,.8);
+		@include pos($t:0, $l: 0);
+	}
+	&__form {
+		position: relative;
+		z-index: 10;
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		@media (max-width: $width-md) and (max-height: $iphonex-landscape + 30px) {
+			width: 80%;
+		}
+	}
+	&__input {
+		width: 100%;
+		margin-bottom: 30px;
+		font-size: 1.3rem;
+		padding: 10px 20px;
+		border-radius: 20px;
+		font-family: $font-title;
+		color: rgba(#000, .7);
+		background: rgba(#fff, .7);
+		letter-spacing: 3px;
+		border-bottom:  2px solid rgba(#000, .3);
+		transition: .1s;
+		&:focus {
+			border-bottom:  2px solid red;
+		}
+		&::placeholder {
+			font-family: $font-title;
+			letter-spacing: 3px;
+		}
+	}
+	&__logo {
+		position: relative;
+		z-index: 10;
+		&-img {
+			width: 100px;
+			height: 80px;
+		}
+	}
+	&__block {
+		position: relative;
+	}
+	&__title {
+		position: relative;
+		z-index: 10;
+		font-size: 3rem;
+		text-align: center;
+		margin-bottom: 150px;
+		@media (max-height: $width-md) and (max-width: $iphonex-landscape + 30px) {
+			margin-bottom: 30px;
+		}
+	}
+	&__button {
+		width: 50%;
+		margin: 0 auto;
+		padding: 10px 20px;
+		font-size: 1.3rem;
+		background: rgba(red,.5);
+		color: #fff;
+		font-family: $font-title;
+		font-weight: 700;
+		letter-spacing: 2px;
+		border-radius: 20px;
+		cursor: pointer;
+		&:hover {
+			background: red;
+		}
+		&:active {
+			transform: scale(.98);
+		}
+	}
+	&__error {
+		color: red;
+		@include pos($t: 50px, $l: 10px);
+	}
+}

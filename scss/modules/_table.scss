@@ -1,0 +1,179 @@
+.table {
+	min-height: 100vh;
+	background-image: url('../images/about.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	padding: 10px 0;
+	@media (max-width: $iphonex-landscape) and (max-height: 400px) {
+		font-size: 1;
+	}
+	&::after {
+		content: '';
+		@include size(100%);
+		background: rgba(255,255,255,.8);
+		@include pos($t:0, $l: 0);
+	}
+	&__logo {
+		position: relative;
+		z-index: 10;
+		&-img {
+			width: 100px;
+			height: 80px;
+		}
+	}
+	&__title {
+		font-size: 3rem;
+		text-transform: uppercase;
+		width: 33%;
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			font-size: 1.5rem;
+		}
+		&-wrap {
+			position: relative;
+			z-index: 10;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 50px;
+		}
+	}
+	&__user {
+		font-size: 2rem;
+		width: 33%;
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			font-size: 1.5rem;
+		}
+	}
+	&__exit {
+		padding:10px 30px;
+		font-size: 1.5rem;
+		border-radius: 20px;
+		color: #fff;
+		background: rgba(red, .6);
+		cursor: pointer;
+		&:hover {
+			background: red;
+		}
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			font-size: 1rem;
+		}
+	}
+	&__container {
+		position: relative;
+		z-index: 10;
+		background: rgba(#fff,.5);
+		padding: 10px;
+		font-size: 1.3rem;
+		color: #fff;
+	}
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		background: rgba(#000, .5);
+		margin-bottom: 10px;
+		padding: 10px;
+		align-items: center;
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			flex-direction: column;
+		}
+		&--new {
+			background: rgba(green, .5);
+		}
+
+	}
+	&__id {
+		width: 5%;
+		@media (max-width: $iphonex-landscape) and (max-height: 400px) {
+			font-size: 14px;
+		}
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			width: 100%;
+			margin-bottom: 5px;
+		}
+	}
+	&__name {
+		width: 25%;
+		@media (max-width: $iphonex-landscape) and (max-height: 400px) {
+			font-size: 14px;
+		}
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			width: 100%;
+			margin-bottom: 5px;
+		}
+	}
+	&__phone {
+		width: 25%;
+		@media (max-width: $iphonex-landscape) and (max-height: 400px) {
+			font-size: 14px;
+		}
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			width: 100%;
+			margin-bottom: 5px;
+		}
+	}
+	&__option {
+		width: 25%;
+		@media (max-width: $iphonex-landscape) and (max-height: 400px) {
+			font-size: 14px;
+		}
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			width: 100%;
+			margin-bottom: 5px;
+		}
+	}
+	&__buttons-wrap {
+		display: flex;
+		width: 20%;
+		position: relative;
+		justify-content: flex-end;
+		@media (max-width: $width-lg) and (max-height: $ipad-height) {
+			width: 25%;
+		}
+		@media (max-width: $iphonex-landscape) and (max-height: 400px) {
+			width: 30%;
+		}
+		@media (max-width: 500px) and (max-height: $iphonex-landscape + 30px) {
+			width: 100%;
+		}
+	}
+	&__mark-button {
+		padding: 10px 20px;
+		background: lighten( green ,10%);
+		cursor: pointer;
+		color: #fff;
+		font-family: $font-title;
+		font-weight: 700;
+		letter-spacing: 2px;
+		border: 2px solid transparent;
+		@include pos($l: 50px);
+		&:active {
+			border: 2px solid #fff;
+			transform: scale(.98);
+		}
+		@media (max-width: $ipad-height) and (max-height: $pro-height) {
+			left: 0;
+		}
+		@media (max-width: $width-sm) and (max-height: 400px) {
+			padding: 5px;
+		}
+	}
+	&__delete-button {
+		padding: 10px 20px;
+		cursor: pointer;
+		background: red;
+		color: #fff;
+		font-family: $font-title;
+		font-weight: 700;
+		letter-spacing: 2px;
+		border: 2px solid transparent;
+		&:active {
+			border: 2px solid #fff;
+			transform: scale(.98);
+		}
+		@media (max-width: $width-sm) and (max-height: 400px) {
+			padding: 5px;
+		}
+	}
+}

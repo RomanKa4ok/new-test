@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Fira+Sans+Extra+Condensed&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../css/fonts/icomoon.eot?ohhfc7');
+  src:  url('../css/fonts/icomoon.eot?ohhfc7#iefix') format('embedded-opentype'),
+    url('../css/fonts/icomoon.ttf?ohhfc7') format('truetype'),
+    url('../css/fonts/icomoon.woff?ohhfc7') format('woff'),
+    url('../css/fonts/icomoon.svg?ohhfc7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location:before {
+  content: "\e903";
+}

@@ -1,0 +1,54 @@
+.footer {
+	background: darken(#FFF,10%) ;
+	font-size: 1.5rem;
+	padding: 20px 0;
+	color: #000;
+	@media (max-width: $width-sm) {
+		font-size: 1.2rem;
+	}
+	&__wrap {
+		display: flex;
+		align-items: center;
+	}
+	&__logo {
+		width: 33%;
+		display: flex;
+		justify-content: center;
+		&-link {
+
+		}
+		&-img {
+			width: 100px;
+			height: 70px;
+			@media (max-width: 375px) {
+				width: 80px;
+				height: 55px;
+			}
+		}
+	}
+	&__quote {
+		width: 33%;
+		font-style: italic;
+		text-align: center;
+		span {
+			color: #76b616;
+		}
+	}
+	&__copy {
+		width: 33%;
+		text-align: center;
+		span {
+			position: relative;			
+			&::after {
+				content: 'since 2015';
+				@include pos($t:-5px, $r: 0px);
+				font-size: 12px;
+				color: #76b616;
+				font-family: $font-title;
+				letter-spacing: 1px;
+				font-weight: 700;
+
+			}
+		}
+	}
+}

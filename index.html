@@ -1,0 +1,2410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Starter">
+	<meta name="author" content="Admin">
+	<title>VIAR WORK</title>
+
+	<link rel="icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/libs/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/libs/slick.css"/>
+	<link rel="stylesheet" href="css/libs/slick-theme.css"/>
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<svg width="0" height="0" class="hidden">
+		<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="right-chevron">
+			<path d="M79.093 0L48.907 30.187 146.72 128l-97.813 97.813L79.093 256l128-128z"></path>
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="left-chevron">
+			<path d="M207.093 30.187L176.907 0l-128 128 128 128 30.186-30.187L109.28 128z"></path>
+		</symbol>
+	</svg>
+	<header class="header">
+		<div class="header__nav-wrap">
+			<div class="one-container">
+				<nav class="header__nav">
+					
+					<div class="header__logo"><a href="/" class="header__logo-link"><img src="images/logo.png" alt="logo" class="header__logo-img"></a></div>
+					<div class="burger-menu__wrap">
+						<i class="burger-menu">
+							<span class="burger-menu__item"></span>
+						</i>
+					</div>
+					<div class="header__quote">Найкраща <br> робота для <br><span>ВАС</span></div>
+					<div class="header__location"><i class="icon-location"></i>Полтава, площа Слави 5 <br> (приміщення автовокзалу) </div>
+					<div class="header__schedule-wrap">
+						<p class="header__schedule-title">ГРАФІК РОБОТИ</p>
+						<p class="header__schedule"><span>ПН-ПТ</span>З 8:30 до 17:30</p>
+						<p class="header__schedule"><span>СБ</span>за домовленістю</p>
+						<p class="header__schedule"><span>НД</span>вихідний</p>
+					</div>
+					<ul class="header__telephone-list">
+
+						<li class="header__telephone"><img src="images/vodaphone.png" alt="operatorimg"><a href="tel:+380991004455 " class="header__telephone-link">+380991004455</a></li>
+						
+						<li class="header__telephone"><img src="images/kyivstar.png" alt="operatorimg"><a href="tel:+380981004455 " class="header__telephone-link">+380981004455</a></li>
+						<li class="header__telephone"><img src="images/lifecell.png" alt="operatorimg"><a href="tel:+380731004455 " class="header__telephone-link">+380731004455</a></li>
+					</ul>
+					<ul class="header__social-list">
+						<li class="header__social"><a target="_blank" href="https://www.facebook.com/groups/1501871593168636/" class="header__social-link"><img src="images/fb.png" alt=""></a></li>
+						<li class="header__social"><a href="https://www.instagram.com/robota_polsha_czechia_europa/" target="_blank" class="header__social-link"><img src="images/insta.png" alt=""></a></li>
+						<li class="header__social"><a  target="_blank" href="https://invite.viber.com/?g2=AQB1OGOK2k6GD0lcRN9RbkxBU36gDMoud%2FJGrey3Nkd4tGc%2B%2BBDSKhmqxT8XaZMk" class="header__social-link"><img src="images/viber.png" alt=""></a></li>
+					</ul>
+					
+				</nav>
+				<div class="header__nav--fill">blank</div>	
+			</div>
+			<nav class="vacancy__nav">
+				<div class="one-container">
+					<div class="nav nav-tabs vacancy__nav-tabs" id="nav-tab" role="tablist">
+						<i class="close-btn close-btn--hidden">1</i>
+						<a class="nav-item nav-link vacancy__nav-link vacancy__nav-link--large active" id="nav-main-tab" data-toggle="tab" href="#nav-main" role="tab" aria-controls="nav-main" aria-selected="true">Головна</a>
+						<a class="nav-item nav-link vacancy__nav-link vacancy__nav-link--large" id="nav-visa-tab" data-toggle="tab" href="#nav-visa" role="tab" aria-controls="nav-visa" aria-selected="false">Візи та анкети</a>
+						<a class="nav-item nav-link vacancy__nav-link vacancy__nav-link--large" id="nav-insurance-tab" data-toggle="tab" href="#nav-insurance" role="tab" aria-controls="nav-insurance" aria-selected="false">СТРАХУВАННЯ ( ВІЗА, БІО, АВТО )</a>
+						<a class="nav-item nav-link vacancy__nav-link vacancy__nav-link--large" id="nav-dovidka-tab" data-toggle="tab" href="#nav-dovidka" role="tab" aria-controls="nav-dovidka" aria-selected="false">довідка про несудимість + апостіль</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><img src="images/visapoland.jpg" alt="">Польща</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-сzech-tab" data-toggle="tab" href="#nav-czech" role="tab" aria-controls="nav-czech" aria-selected="false"><img src="images/visacz.jpg" alt="">Чехія</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-italy-tab" data-toggle="tab" href="#nav-italy" role="tab" aria-controls="nav-italy" aria-selected="false"><img src="images/italy.jpg" alt="">Італія</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-slow-tab" data-toggle="tab" href="#nav-slow" role="tab" aria-controls="nav-slow" aria-selected="false"><img src="images/slo.png" alt="">Словаччина</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-hungary-tab" data-toggle="tab" href="#nav-hungary" role="tab" aria-controls="nav-hungary" aria-selected="false"><img src="images/hun.png" alt="">Угорщина</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-schweiz-tab" data-toggle="tab" href="#nav-schweiz" role="tab" aria-controls="nav-schweiz" aria-selected="false"><img src="images/schweiz.png" alt="">Швеція</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-estonia-tab" data-toggle="tab" href="#nav-estonia" role="tab" aria-controls="nav-estonia" aria-selected="false"><img src="images/pri.jpg" alt="">Прибалтика</a>
+						<a class="nav-item nav-link vacancy__nav-link" id="nav-holland-tab" data-toggle="tab" href="#nav-holland" role="tab" aria-controls="nav-holland" aria-selected="false"><img src="images/hol.jpg" alt="">Голландія</a>
+						
+
+						
+						
+
+
+					</div>
+				</div>
+				
+			</nav>
+
+			
+
+		</div>	
+		<div class="header__slider">
+			<div class="header__slide--poland">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Польщі
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>	
+						
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class=" header__slide--czech">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Чехії
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>	
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class=" header__slide--italy">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Італії
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>		
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class=" header__slide--slowakei">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Словаччині
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>	
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class=" header__slide--hungary">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Угорщині
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>	
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class=" header__slide--schweiz">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Швеції
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>	
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class=" header__slide--pribaltika">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Прибалтиці
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>	
+					</div>	
+				</div>
+				
+				
+			</div>
+			<div class=" header__slide--holland">
+				<div class="header__slide-container">
+					<div class="header__slide-wrap">
+						<h3 class="header__slide-title">
+							Робота в Голландії
+						</h3>
+						<a href="#contact-anchor" class="header__button">Залишити заявку</a>
+						<div class="header__button-anim"></div>	
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		<!-- <div class="one-container">
+			<div class="header__wrap">
+				<h1 class="header__title">VIAR WORK</h1>
+				<p class="header__desc">Ви вже давно хотіли працювати у країнах Европи, але досі не спробували? Нарешті прийшов цей час! Ми з радістю допоможемо Вам у цій справі! Оберіть країну яка вас цікавить, нижче з'являться вакансії по даній країні.</p>
+				<a href="#contact-anchor" class="header__button">Зв'язатизя з нами!</a>
+				<div class="header__button-anim"></div>
+			</div>
+
+		</div> -->
+		
+	</header>
+
+	<main class="content">
+		<section class="vacancy">
+			<div id="vacancy-anchor" class="vacancy__title-wrap">
+				<h1 class="vacancy__title">Термінові Вакансії</h1>
+			</div>
+			
+			<div class="one-container">
+				<div class="tab-content vacancy__content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-main" role="tabpanel" aria-labelledby="nav-main-tab">
+						<p class="vacancy__desc">Тут ви можете переглянути гарячі вакансії в країнах Європи</p>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/slowakia-1.jpg" alt="poland-5" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Прибирання Лікарні, СЛОВАЧЧИНА </h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>жінки, сімейні пари, вік від 18 до 55 років ( Українці, Серби, Грузини ) , наявність БІО режиму або польскої візи 	</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">прибирання палат, коридорів, кабінетів, сходів </li>
+											<li class="vacancy__oblige-item">виніс сміття, миття підлоги,     протирання підвіконня </li>
+											<li class="vacancy__oblige-item">підтримування чистоти</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 11 годин, без нічних змін         
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>3.7 евро за годину , є аванси </p>
+										<p class="vacancy__location"><span>Розташування: </span>Братислава, проживання - в квартирах або хостелах, від 140 до 220 евро за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/sw.jpg" alt="schweiz" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Клінінгова компанія , ШВЕЦІЯ 	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>жінки від 18 до 45 років ( Українці, Білоруси ) з мінімальним знанням англійської мови, наявність БІО режиму або польскої візи </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">прибирання квартир, офісів, будинків </li>
+											<li class="vacancy__oblige-item">прибирання житлових та технічних приміщень</li>
+											<li class="vacancy__oblige-item">прибирання після ремонту,    миття вікон </li>
+											<li class="vacancy__oblige-item">сухе та вологе прибирання ,  виніс сміття </li>
+
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 8 - 10 годин , без нічних змін
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>5.8 евро за годину, з другого місяця 6.6 євро за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Гетеборг,  проживання - безкоштовно  </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/tern1.jpg" alt="term1" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Працівник продукції, ПОЛЬЩА</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, вік від 18 до 55 років, повне БІО або польська віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">пакування готової продукції в коробки</li>
+											<li class="vacancy__oblige-item">взвішування продукції</li>
+											<li class="vacancy__oblige-item">наклеювання етикеток з датою придатності </li>
+											<li class="vacancy__oblige-item">обмотка сосисок плівкою</li>
+											<li class="vacancy__oblige-item">пакування напівфабрикатів</li>
+											<li class="vacancy__oblige-item">обслуговування маринаду</li>
+											<li class="vacancy__oblige-item">підвішування продукції</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн до сб по 10-12 годин , 2 зміни
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>17 злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span>околиці Познані ( Коло , Робакова ), проживання - 400 злотих      </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/term2.jpg" alt="term2" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Робота з декоративними саджанцями, ГОЛЛАНДІЯ</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> жінки, польська віза від 4.5 міс або готовність відкрити,  1.5 - 2 місяці стажування у Польщі, потім відрядження на 3 місяці до Голландії</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">саджання декоративних саджанців,</li>
+											<li class="vacancy__oblige-item">збір врожаю</li>
+											<li class="vacancy__oblige-item">фасування саджанців</li>
+											<li class="vacancy__oblige-item">перебирання цибулин</li>
+											
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - пт по 7-8 годин, в місяць від 160 годин, без нічних змін
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>9 євро за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Lottum, проживання - безкоштовно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/term4.jpg" alt="term4" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Робота в готелях, ІТАЛІЯ	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> жінки, сімейні пари, вік від 18 до 45 ( більше за узгодженням )  , наявність польської піврічної візи або готовність відкрити </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">прибирання в номерах</li>
+											<li class="vacancy__oblige-item">прибирання  коридорів, сходів</li>
+											<li class="vacancy__oblige-item">заміна постільної білизни, миття вікон</li>
+											<li class="vacancy__oblige-item">підготування столів та стульців для буфета та приймання їжі</li>
+											<li class="vacancy__oblige-item">прибирання приміщення</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 8 годин, 200 годин в місяць, без нічних змін
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>1000 євро ставка в місяць</p>
+										<p class="vacancy__location"><span>Розташування: </span>Верона, Черво, Милан, Венеція, проживання - 100 євро + 1 харчування </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/term3.jpg" alt="term3" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочий автозавода Шкода, ЧЕХІЯ </h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари,</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">робота на лінії,   контроль якості</li>
+											<li class="vacancy__oblige-item">фасування, пакування</li>
+											<li class="vacancy__oblige-item">виявлення браку</li>
+											<li class="vacancy__oblige-item">обслуговування ліній сировиною</li>
+											<li class="vacancy__oblige-item">більшість процесів автоматизовані</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 10-12 годин, 2 зміни
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>100-120 крон за годину ( залежить від процесу ) </p>
+										<p class="vacancy__location"><span>Розташування: </span>Mladá Boleslav, проживання - безкоштовно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+						<p class="vacancy__desc">Тут ви можете переглянути доступні вакансіі у Польщі</p>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-1.jpg" alt="plastmat" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на упаковку та комплектацію брендового одягу  Zara</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 50 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">збирання замовлень за допомогою сканера</li>
+											<li class="vacancy__oblige-item">сортування та розкладання нового товару</li>
+											<li class="vacancy__oblige-item">упаковка зібраних замовлень</li>
+											<li class="vacancy__oblige-item">перевірка поверненого товару</li>
+											
+											
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8 - 12 годин, 2 зміни</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>13.60 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину </p>
+										<p class="vacancy__location"><span>Розташування: </span> Стрикув, Лодзь, проживання - безкоштовно, по 3-4 особи в кімнаті, сімейним надається окрема кімната при наявності </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<img src="images/work/poland-2.jpg" alt="poland-2" class="vacancy__img">
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі в магазин Biedronka ( викладка товару )</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 50 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">робота в залі на викладці товару</li>
+											<li class="vacancy__oblige-item">робота на касі продавцем ( при бажанні ) </li>
+											<li class="vacancy__oblige-item">розпакування товару </li>
+											<li class="vacancy__oblige-item">перевірка термінів придатності </li>
+											<li class="vacancy__oblige-item">сканування та стікерування товару</li>
+											
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10 годин, 2 зміни, 240 -260 годин на місяць</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.85 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>мережа магазинів, вся Польща, проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-4.jpg" alt="kfc" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Помічник на кухню в мережу швидкого харчування KFC</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 40 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">приготування бутербродів, бургерів ,салатів</li>
+											<li class="vacancy__oblige-item">обжарка шматочків курятини	</li>
+											<li class="vacancy__oblige-item">приготування картоплі фрі </li>
+											<li class="vacancy__oblige-item">нарізка овочів </li>
+											<li class="vacancy__oblige-item">підтримування чистоти на робочому місці </li>
+											
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - нд по 12 годин, 2 зміни, вихідний плаваючий </p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>13.60 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Stargard Szczeciński, Szczecin, Baranów, Gliwice, Opole, Zgorzelec, Warszawa та інші міста Польщі, проживання - комунальні послуги 100 злотих на місяць </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-5.jpg" alt="poland-5" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Пакувальник на склад брендового одягу H&M</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">
+											сканування товару</li>
+											<li class="vacancy__oblige-item">розміщення товарів на полицях складу</li>
+											<li class="vacancy__oblige-item">
+											збирання товарів з полиць</li>
+											<li class="vacancy__oblige-item">збирання замовлень</li>
+											<li class="vacancy__oblige-item">сортування одягу, взуття, біжутерії</li>
+											<li class="vacancy__oblige-item">введення даних з товару за допомогою сканера в комп'ютер	</li>
+
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 10-12 годин, 2 зміни</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>від 12.88 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span> Стрикув ( Лодзь ), Познань, Осло ( Вроцлав ), проживанн - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-6.jpg" alt="poland-6" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Оператор виробництва LG Chem Energy</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 45 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">Робота в сучасних стерильних цехах у спеціальних костюмах	</li>
+											<li class="vacancy__oblige-item">Чоловіки працюють в кількох відділах: Відділ міксерів</li>
+											<li class="vacancy__oblige-item">робота полягає в приготування суміші основного компонента батарей. Відділ монтажу проводки на батареї і збір батарей</li>
+											<li class="vacancy__oblige-item">Жінки працюють на відділі ламінації , контролю за виробництвом батарей, монтаж електрокомпонентів на батареї</li>
+											
+											
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>
+										пн - сб по 12 годин, 2 зміни - 2 раза написан графік роботи</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.85 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину	</p>
+										<p class="vacancy__location"><span>Розташування: </span>Wroclaw, проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/tern1.jpg" alt="term1" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Працівник продукції Соколув</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">пакування готової продукції в коробки</li>
+											<li class="vacancy__oblige-item">взвішування продукції</li>
+											<li class="vacancy__oblige-item">наклеювання етикеток з датою придатності </li>
+											<li class="vacancy__oblige-item">обмотка сосисок плівкою</li>
+											<li class="vacancy__oblige-item">пакування напівфабрикатів</li>
+											<li class="vacancy__oblige-item">обслуговування маринаду</li>
+											<li class="vacancy__oblige-item">підвішування продукції</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10-12 годин, 2 зміни
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>17 злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span>околиці Познані ( Коло , Робакова ), проживання - 400 злотих      </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-7.jpg" alt="poland-7" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Робота на логістичний склад. 3lp.</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза	 </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">комплектація товару</li>
+											<li class="vacancy__oblige-item">підготовка товарів для видачі зі складу у вигляді посилки</li>
+											<li class="vacancy__oblige-item">сортування, упакування, розпакування і перепакування товарів</li>
+											<li class="vacancy__oblige-item">перевірка стану і якості товару	</li>
+											<li class="vacancy__oblige-item">завантаження і розвантаження товарів	</li>
+											<li class="vacancy__oblige-item">робота зі сканером</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - пт по 10-12 годин, 2 зміни		
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>ставка до 168 годин – 13,07 злотих НЕТТО, ставка після 168 годин – 14,39 злотих НЕТТО 	</p>
+										<p class="vacancy__location"><span>Розташування: </span>Siechnice (10 км від Вроцлава), проживання - комунальні послуги 250 злотих </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-8.jpg" alt="poland-8" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на свиноферму AGRIFARM	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">догляд за свинями та новонародженими </li>
+											<li class="vacancy__oblige-item">їх миття, дезінфекція </li>
+											<li class="vacancy__oblige-item">годування</li>
+											<li class="vacancy__oblige-item">прибирання	</li>
+											<li class="vacancy__oblige-item">допомога при зоотехнічних процедурах</li>
+											<li class="vacancy__oblige-item">догляд за новонародженими тваринами</li>
+											<li class="vacancy__oblige-item">Всі процеси окрім годування тварин - автоматичні</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - нд по 8 годин, в місяць 240 годин			
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span> 14.67 злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span>Kwilcz, Przytoczna, ПОЗНАНЬ проживання - безкоштовно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-9.jpg" alt="poland-9" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Пакувальник на логістичний склад AMAZON	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 52 років ( старше за домовленістю ) повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">збирання замовлень за допомогою сканера	</li>
+											<li class="vacancy__oblige-item">сортування та розкладання нового товару</li>
+											<li class="vacancy__oblige-item">упаковка зібраних замовлень</li>
+											<li class="vacancy__oblige-item">оцінка стану товарів на брак перед відправкою	</li>
+											<li class="vacancy__oblige-item">робота максимально автоматизована не вимагає підняття коробок </li>
+											<li class="vacancy__oblige-item">сканування посилок та їх упаковка в коробки до 3-4 кг</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10 - 12 годин, 2 зміни 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>ставка на годину 14.35 злотих НЕТТО, ставка за понаднормові години –  21.54 злотих НЕТТО, ставка за роботу у вихідні – 28.70 злотих НЕТТО 	</p>
+										<p class="vacancy__location"><span>Розташування: </span>Bielany Wrocławskie (10 км Вроцлав), Щецин, проживання - проживання - 20 зл доба, є можливість знімати житло самостійно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-10.jpg" alt="poland-10" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на виробництво дерев’яного паркету і ламінату. Barlinek	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 60 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">робота на деревообробних верстатах різного розміру</li>
+											<li class="vacancy__oblige-item">оператор вкладає дошки в верстат, після цього виймають і викладають в піддони</li>
+											<li class="vacancy__oblige-item">машини розпилюють дошки до певного розміру і завдання оператора стежити за точністю розпилу	</li>
+											<li class="vacancy__oblige-item">жінки працюють з дошками невеликого розміру і ваги, в цеху з очищення деревини від сучків або прибиранні</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, 2 зміни 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>13.60 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Барлінек ,Познань, проживання - безкоштовно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-11.jpg" alt="poland-11" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на виробництво морозива. Zielona Budka	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза	</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">упаковка готової продукції</li>
+											<li class="vacancy__oblige-item">мануальна робота на лінії</li>
+											<li class="vacancy__oblige-item">розфасовка готової продукції</li>
+											<li class="vacancy__oblige-item">дотримання чистоти на робочому місці	</li>
+											<li class="vacancy__oblige-item">завантаження / розвантаження</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8 - 12 годин, 3 зміни, в місяць 210 - 320 годин
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.85 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину	</p>
+										<p class="vacancy__location"><span>Розташування: </span>KOTORYDZ (30 км від Варшави) та Mielec ( Краків ), проживання - безкоштовне </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-12.jpg" alt="poland-12" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочий на шоколадну фабрику Wedel</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">робота на виробництві	</li>
+											<li class="vacancy__oblige-item">до основних обов'язків належить ручне збирання виробів</li>
+											<li class="vacancy__oblige-item">збирання виробів з лінії	</li>
+											<li class="vacancy__oblige-item">упакування в картонні коробки	</li>
+											<li class="vacancy__oblige-item">розміщення виробів на піддонах</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, 2 зміни, в місяць 220 - 280 годин 
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.85 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину, в місяць 3 - 4 тис злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span> Варшава, проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-13.jpg" alt="poland-13" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на фабрику печива Lambertz Polonia</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза				</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">робота на конвеєрі ( переважно сидяча, викладання печива )</li>
+											<li class="vacancy__oblige-item">стікеровка товару</li>
+											<li class="vacancy__oblige-item">упаковка продукції в ящики </li>
+											<li class="vacancy__oblige-item">розфасовка готової продукції</li>
+											<li class="vacancy__oblige-item">дотримання чистоти на робочому місці</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, 2 зміни 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.88 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Катовіце, проживання - комунальні послуги 150 злотих за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-14.jpg" alt="poland-14" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі в пекарню VITAL</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 45 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">підготовка хлібобулочної сировини до виробництва	</li>
+											<li class="vacancy__oblige-item">виконання допоміжних заходів перед випічкою хліба</li>
+											<li class="vacancy__oblige-item">візуальний контроль якості</li>
+											<li class="vacancy__oblige-item">виконання технологічних операцій після випічки</li>
+											<li class="vacancy__oblige-item">підготовка і передача хліба для відправки</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10 - 12 годин, 2 зміни 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>17 злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span>Mała Nieszawka, Торунь, проживання - комунальні послуги 400 злотих за місяць </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-15.jpg" alt="poland-15" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на курячий завод MILEWCZYK</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">розділення курячих тушок на частини (філе, лапки, крильця)	</li>
+											<li class="vacancy__oblige-item">упаковка готових частин згідно стандартів та інструкцій	</li>
+											<li class="vacancy__oblige-item">підтримування чистоти на робочому місці	</li>
+											<li class="vacancy__oblige-item">температура на заводі +5</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, 2 зміни, є надгодини
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>17 злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span>Dzierżążnie, Гданьськ, проживання - комунальні послуги 400 злотих за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-16.jpg" alt="poland-16" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на розбір та загін великої рогатої худоби</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">допомога в загоні тварин на забій</li>
+											<li class="vacancy__oblige-item">очищення тварин від шкіри</li>
+											<li class="vacancy__oblige-item">підвішування напівтуші	</li>
+											<li class="vacancy__oblige-item">оброблення напівтуші </li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10 - 12 годин, 240 - 260 годин в місяць
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>20 злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span>Коло Познань,  WADOWICE GÓRNE Краків, проживання - комунальні послуги 400 злотих в місяць </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-17.jpg" alt="poland-17" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Збір салата Winnicka sałata</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза  </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">збирання ( зрізання ) салату </li>
+											<li class="vacancy__oblige-item">в одній руці потрібно тримати ніж, а інший відкладати нарізаний салат в коробку</li>
+											<li class="vacancy__oblige-item">кожна ділянка складається з чотирьох ліній салату і у кожного співробітника є дві лінії для зрізання салату</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8-10-12 годин, без нічних змін, є багато годин
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>17 злотих НЕТТО на годину 	</p>
+										<p class="vacancy__location"><span>Розташування: </span>Winnica, Варшава, проживання - комунальні 300 злотих за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-18.jpg" alt="poland-18" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Робота в швейному відділі в пошитті чохлів до автомобілів Toyota	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 50 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">робота полягає в пошитті чохла автомобіля відповідно до інструкцій	</li>
+											<li class="vacancy__oblige-item">дії пов'язані з підготовкою матеріалів для шиття	</li>
+											<li class="vacancy__oblige-item">заміна ниток</li>
+											
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8 -10 годин, без нічних змін 
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>15 злотих НЕТТО </p>
+										<p class="vacancy__location"><span>Розташування: </span>Wykroty, gmina Nowogrodziec, проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-19.jpg" alt="poland-19" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Прибирання вулиць міста FB Service</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, віком від 18 до 55 років, повне БІО або віза	 </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">підмітати тротуари, згрібання листя	</li>
+											<li class="vacancy__oblige-item">видалення всіх забруднень з низькою зелені, наприклад трави (сміття, зламані гілки, листя)</li>
+											<li class="vacancy__oblige-item">видалення відходів та інших забруднень з тротуарів, вулиць, проїзної частини, дитячих майданчиків та газонів	</li>
+											<li class="vacancy__oblige-item">вивантаження сміттєвих відер зі сміттям</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - нд по 8-10-12 годин, вихідний плаваючий 
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>зарплата - 17 злотих НЕТТО </p>
+										<p class="vacancy__location"><span>Розташування: </span>Вроцлав, Познань, проживання - в квартирах 345 злотих за мысяць	</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-20.jpg" alt="poland-20" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на виробництво та упаковку свічок SPAAS</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">викладання свічок на конвеєр</li>
+											<li class="vacancy__oblige-item">прості виробничі роботи при конвеєрі	</li>
+											<li class="vacancy__oblige-item">досипати ароматизатори або барвники в суміш парафіну</li>
+											<li class="vacancy__oblige-item">пакуваня готової  продукції</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10-12 годин, 220 - 250 годин в місяць 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>13.60 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину		</p>
+										<p class="vacancy__location"><span>Розташування: </span>Stargard ( 20 km od Szczecin ), проживання - комунальні послуги 100 злотих за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-21.jpg" alt="poland-21" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Пакувальники косметики AVON	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">доставка продуктів на лінію	</li>
+											<li class="vacancy__oblige-item">сортування косметики по коробкам, для відправлення замовлень	</li>
+											<li class="vacancy__oblige-item">робота з ручним сканером</li>
+											<li class="vacancy__oblige-item">робота не складна, в комфортному і затишному виробничо приміщенні, без різких запахів і шумів	</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 8 годин, 3 зміни
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>13.60 злотих НЕТТО + доплата за понаднормові години, нічні та вихидні дні, в місяць від 3300 злотих НЕТТО	</p>
+										<p class="vacancy__location"><span>Розташування: </span> Гарволін (70 км від Варшави), проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-22.jpg" alt="poland-22" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Пакувальник чаю Lipton	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза	 </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">складання пачок з чаєм в коробки</li>
+											<li class="vacancy__oblige-item">заклеювання картонних коробок скотчем</li>
+											<li class="vacancy__oblige-item">контроль якості продукції</li>
+											<li class="vacancy__oblige-item">підставка картонів для упаковки</li>
+											<li class="vacancy__oblige-item">розфасовка і пакування чаю різних сортів, розміщення по складу</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, 2 зміни, в місяць 260 - 310 годин 
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.88 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Варшава, проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-23.jpg" alt="poland-23" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Робітники на склад Kinder	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>жінки, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">навантаження продукції 	</li>
+											<li class="vacancy__oblige-item">упаковка і сортування товару </li>
+											<li class="vacancy__oblige-item">вкладання іграшки в яйце 	</li>
+											
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - пт по 8 годин, бувають понаднормові 			
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.80 - 13.80 злотих НЕТТО </p>
+										<p class="vacancy__location"><span>Розташування: </span>Rawa Mazowiecka (80 км від Варшави), проживання - комунальні послуги 250 злотих за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-24.jpg" alt="poland-24" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на упаковку йогуртів Danone</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">огляд продукції на дефекти	</li>
+											<li class="vacancy__oblige-item">упаковка і фасування йогуртів	</li>
+											<li class="vacancy__oblige-item">розфасовка по ящиках</li>
+											<li class="vacancy__oblige-item">дотримання чистоти на робочому місці</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10-12 годин, 230 - 260 годин на місяць 			
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>12.85 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Lodz, проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-25.jpg" alt="poland-25" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Виробництво кормів для тварин. MISPOL</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">розвантаження товарів з транспортних візків (важкі піддони треба переносити)	</li>
+											<li class="vacancy__oblige-item">сортування та вивезення відходів з робочого місця		</li>
+											<li class="vacancy__oblige-item">підготовка візків до навантаження	</li>
+											<li class="vacancy__oblige-item">збір готових упаковок (банки, чашки) і розміщення їх на візках</li>
+											<li class="vacancy__oblige-item">чистка, мийка та дезінфекція обладнання і робочого місця	</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - пт по 12 годин, 2 зміни, 280 - 300 годин на місяць
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>17 злотих НЕТТО</p>
+										<p class="vacancy__location"><span>Розташування: </span>Suwałki, Бялисток, проживання - комунальні послуги  200 злотих за місяць </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-26.jpg" alt="poland-26" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Працівник на лінію переробки. Toensmeier Centrum.</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або віза	</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">Сортування упаковок, обгорток з метою вторинної переробки</li>
+											<li class="vacancy__oblige-item">Прибирання території та робочого місця</li>
+											<li class="vacancy__oblige-item">розділення на дрібні елементи</li>
+											<li class="vacancy__oblige-item">фасування по матеріалах та кольорах</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10 годин, 2 зміни 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>17 злотих НЕТТО </p>
+										<p class="vacancy__location"><span>Розташування: </span>Kutno, Лодзь,  проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/poland-27.jpg" alt="poland-27" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на виробництво телевізорів LG</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 60 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">скручування компонентів телевізора		</li>
+											<li class="vacancy__oblige-item">викладка на лінію екранів</li>
+											<li class="vacancy__oblige-item">підключення та тестування телевізорів</li>
+											<li class="vacancy__oblige-item">стікеровка, упаковка телевізорів</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, є надгодини 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>13.60 злотих НЕТТО, кандидатам до 26 років ставка вища від 1 до 4 злотих за годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Млава, Варшава, проживання - комунальні послуги 150 злотих за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-czech" role="tabpanel" aria-labelledby="nav-czech-tab">
+						<p class="vacancy__desc">Тут ви можете переглянути доступні вакансіі у Чехії</p>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-1.jpg" alt="skoda" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочий на автозавод Шкода </h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років під відкриття чешської візи</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">робота на лінії,   контроль якості</li>
+											<li class="vacancy__oblige-item">фасування, пакування</li>
+											<li class="vacancy__oblige-item">виявлення браку</li>
+											<li class="vacancy__oblige-item">обслуговування ліній сировиною</li>
+											<li class="vacancy__oblige-item">більшість процесів автоматизовані</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 10-12 годин, 2 зміни
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>100-120 крон за годину ( залежить від процесу ) </p>
+										<p class="vacancy__location"><span>Розташування: </span>Mladá Boleslav, проживання - безкоштовно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-2.jpg" alt="bmw" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочий на завод телевізорів Панасонік</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років під відкриття чешської візи</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">монтаж деталей</li>
+											<li class="vacancy__oblige-item">допомога та контроль у виготовлені деталей </li>
+											<li class="vacancy__oblige-item">збір та оснащення телевізорів 	</li>
+											<li class="vacancy__oblige-item">робота на лінії </li>
+											<li class="vacancy__oblige-item">підтримування чистоти на робочому місці </li>
+
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн-сб по 8-10 годин, 2 зміни,  220-240 годин в місяць </p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>100 крон на годину </p>
+										<p class="vacancy__location"><span>Розташування: </span>Plzen, проживання - 450 крон за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-3.jpg" alt="cz-3" class="vacancy__img">
+										</div>
+									</div>
+
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на розчистку лісу, збирання гілок </h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, віком від 18 до 50 років, повне БІО або віза</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">розчистка території від гілок дерев </li>
+											<li class="vacancy__oblige-item">розчистка лісу під саджанці </li>
+											<li class="vacancy__oblige-item">робота не потребує використання сокир та бензопил </li>
+											
+											<li class="vacancy__oblige-item">прибирання та складання сухих гілок</li>
+
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, без нічних змін</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>100 крон на годину </p>
+										<p class="vacancy__location"><span>Розташування: </span>Чехія, околиці Плезня, Праги та інших великих міст, проживання - безкоштовно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-4.jpg" alt="cz-4" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочий на завод кондиціонерів</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, під відкриття чешської візи</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">монтаж деталей </li>
+											<li class="vacancy__oblige-item">не потребують спеціальних навиків, всього навчають на місці</li>
+											<li class="vacancy__oblige-item">робота на лінії</li>
+											<li class="vacancy__oblige-item">допомога та контроль виготовлення деталей</li>
+											<li class="vacancy__oblige-item">тестування деталей</li>
+											<li class="vacancy__oblige-item">пакування кінцевого продукту </li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8 - 12 годин , 3 зміни , 240-250 годин в місяць , є надгодини 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>115 крон на годину </p>
+										<p class="vacancy__location"><span>Розташування: </span>Plzen, проживання - безкоштовно </p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-5.jpg" alt="cz-5" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на поштові склади Geis </h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, під відкриття чешської візи</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">пакування та сортування поштовий посилок</li>
+											<li class="vacancy__oblige-item">сканування штрих кодів </li>
+											<li class="vacancy__oblige-item">робота за компьютером </li>
+											<li class="vacancy__oblige-item">перевірка на цілісність продукції </li>
+											<li class="vacancy__oblige-item">вся продукція в коробках , немає роботи з сировиною</li>
+											<li class="vacancy__oblige-item">підтримування чистоти на робочому місці </li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8 - 12 годин, 3 зміни, є понаднормові години, до 300 годин на місяць
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>110 крон на годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Сheb, проживання - безкоштовно</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-6.jpg" alt="cz-6" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на інтернет склади Loxxess	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, під відкриття чешської візи</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">пакування та сортування товару </li>
+											<li class="vacancy__oblige-item">сканування штрих кодів</li>
+											<li class="vacancy__oblige-item">робота за компьютером </li>
+											<li class="vacancy__oblige-item">перевірка на цілісність товару ( біо харчування, вітаміни, товари для дому, косметика, кондитерські вироби ) 	</li>
+											<li class="vacancy__oblige-item">переміщення товарів по складу</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8 - 12 годин, без нічних змін, є надгодини 	
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>115 крон за годину + премії 	</p>
+										<p class="vacancy__location"><span>Розташування: </span>Тахов ( 20 км від Німеччини ), проживання - 4000 крон за місяць, по 2-3 особи в кімнаті ( сімейним парам кімната окремо ) 	</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row mb">
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-7.jpg" alt="cz-7" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі в пекарню	</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, під відкриття чешської візи</p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">допомога у замішуванні тіста </li>
+											<li class="vacancy__oblige-item">підготування до випічки продукції</li>
+											<li class="vacancy__oblige-item">робота на конвеєрній лінії </li>
+											<li class="vacancy__oblige-item">комплектація готової продукції 	</li>
+											<li class="vacancy__oblige-item">упаковка кінцевого результату</li>
+										</ul>
+										<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, 2 зміни, є надгодини 
+										</p>
+										<p class="vacancy__sallary"><span>Заробітна плата: </span>110 крон на годину</p>
+										<p class="vacancy__location"><span>Розташування: </span>Плезнь, проживання - 4000 крон за місяць</p>
+										<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+								<div class="vacancy__block">
+									<div class="row vacancy__img-wrap">
+										<div class="col-12">
+											<img src="images/work/cz-8.jpg" alt="cz-8" class="vacancy__img">
+										</div>
+									</div>
+									
+
+									<div class="vacancy__wrap">
+										<h3 class="vacancy__name">Різноробочі на автозавод HP-Pelzer</h3>
+										<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, під відкриття чешської візи </p>
+										<p class="vacancy__oblige">Обов'язки:</p>
+										<ul class="vacancy__oblige-list">
+											<li class="vacancy__oblige-item">підготування матеріалів для салона автомобіля</li>
+											<li class="vacancy__oblige-item">розкрій, вимірювання 	</li>
+											<li class="vacancy__oblige-item"><обслуговування машин 	</li>
+												<li class="vacancy__oblige-item">підтримування чистоти на робочому місці </li>
+												<li class="vacancy__oblige-item">дотримування стандартів у виготовленні допоміжних матеріалів </li>
+												<li class="vacancy__oblige-item">підготування та поміч з матеріалами в роботі 	</li>
+												<li class="vacancy__oblige-item">вміння працювати в команді </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 12 годин, 2 зміни, є надгодини 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>110 крон на годину 	</p>
+											<p class="vacancy__location"><span>Розташування: </span>Плезнь, проживання - 4000 крон за місяць, по 2-3 особи в кімнаті </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+					</div>
+					<div class="tab-pane fade" id="nav-slow" role="tabpanel" aria-labelledby="nav-slow-tab">
+							<p class="vacancy__desc">Тут ви можете переглянути доступні вакансіі у Словаччині</p>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/slowakia-1.jpg" alt="cleanerhospital" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Прибиральник лікарні</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>жінки, сімейні пари, віком від 18 до 55 років ( Українці, Серби, Грузини ) повне БІО або польська віза</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">прибирання палат, коридорів, кабінетів, сходів</li>
+												<li class="vacancy__oblige-item">виніс сміття, миття підлоги, протирання підвіконня</li>
+												<li class="vacancy__oblige-item">підтримування чистоти</li>
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 11 годин, без нічних змін</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>3.7 евро за годину , є аванси</p>
+											<p class="vacancy__location"><span>Розташування: </span>Братислава, в квартирах або хостелах, від 140 до 220 євро за місяць, або своє житло</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/slowakia-2.jpg" alt="hotel" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Покоївка в готель</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>жінки, віком від 18 до 45 років ( старші за домовленістю ) Робота на довгий термін, подача на ВНЖ, повне БІО, довідка про несудимість + апостіль            </p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">прибирання номерів</li>
+												<li class="vacancy__oblige-item">прибирання коридорів та соц. приміщень	</li>
+												<li class="vacancy__oblige-item">миття підлоги</li>
+												<li class="vacancy__oblige-item">вологе та сухе прибирання</li>
+												<li class="vacancy__oblige-item">миття вікон</li>
+												<li class="vacancy__oblige-item">заміна постільної білизни</li>
+
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - нд ( вихідний за домовленістю, плаваючий )  10-12 годин, 6-7 днів на тиждень, 250-300 годин в місяць</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>3.5 євро за годину ( випробувальній термін 2 дні - по 2 євро за годину )	</p>
+											<p class="vacancy__location"><span>Розташування: </span>Тренчин, проживання - квартири по 50 евро в місяць</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/slowakia-5.jpg" alt="slowakia-5" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Помічник на кухню, при готелі 	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>Вимоги: чоловіки, жінки, сімейні пари, віком від 18 до 45 років ( старші за домовленістю ) Робота на довгий термін, подача на ВНЖ, повне БІО, довідка про несудимість + апостіль</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">миття посуду ( великі каструлі, миски ) 	</li>
+												<li class="vacancy__oblige-item">обслуговування посудомийної машини</li>
+												<li class="vacancy__oblige-item">прибирання кухні </li>
+												<li class="vacancy__oblige-item">допоміжні роботи ( чищення чи нарізка продуктів)	</li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - нд ( вихідний за домовленістю, плаваючий )  10-12 годин, 6-7 днів на тиждень, 280-300 годин в місяць 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>4 євро за годину ( випробувальній термін 2 дні - по 2 євро за годину )</p>
+											<p class="vacancy__location"><span>Розташування: </span>Тренчин, проживання - квартири по 50 евро в місяць ( 2-3 особи )</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/slowakia-4.jpg" alt="slowakia-4" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочий на завод ПЕЖО 	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>вимоги - чоловіки, жінки, сімейні пари, віком від 18 до 50 років, подача на ВНЖ, повне БІО, довідка про несудимість + апостіль</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">збір і комплектація авто деталей</li>
+												<li class="vacancy__oblige-item">оператор лінії виробництва</li>
+												<li class="vacancy__oblige-item">робота на складі </li>
+												<li class="vacancy__oblige-item">робота на карі ( з навчанням ) </li>
+												<li class="vacancy__oblige-item">комплектування продукції </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>  пн - пт по 8 годин ( є можливість брати додаткові години ) 	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>від 850 євро, з третього місяця від 1000 євро 	</p>
+											<p class="vacancy__location"><span>Розташування: </span>Трнава, проживання - перший місяць - безкоштовно, з другого 100 євро в місяць </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="row mb">
+
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/slowakia-3.jpg" alt="slowakia-3" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочий на завод Ленд Ровер 	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> Вимоги: чоловіки, жінки, сімейні пари, віком від 18 до 50 років, подача на ВНЖ, повне БІО, довідка про несудимість + апостіль</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">омплектування продукції</li>
+												<li class="vacancy__oblige-item">пакування, фасування</li>
+												<li class="vacancy__oblige-item">контроль якості </li>
+												<li class="vacancy__oblige-item">переміщення деталей по складу  </li>
+												<li class="vacancy__oblige-item">збір продукції </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - нд  по 8-12 годин ( вихідний плаваючий ) 	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>4.12 євро перший місяць, 4.35 євро з другого та 4.5 євро з третього  + талони на харчуання</p>
+											<p class="vacancy__location"><span>Розташування: </span>Нітра, проживання - 35 євро в місяць</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/slowakia-6.jpg" alt="slowakia-6" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Робітник овочевого складу </h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> Вимоги: чоловіки, жінки, сімейні пари, віком від 18 до 50 років, подача на ВНЖ, повне БІО, довідка про несудимість + апостіль</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">викладати овочі в ящики </li>
+												<li class="vacancy__oblige-item">фасувати овочі</li>
+												<li class="vacancy__oblige-item">викладати на палету для відправки</li>
+												<li class="vacancy__oblige-item">перебирати овочі</li>
+												<li class="vacancy__oblige-item">обрізання овочів </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - пт з 7 ранку до 16.00 ( є надгодини ) 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>4 євро за годину 	</p>
+											<p class="vacancy__location"><span>Розташування: </span>Братислава, проживання - безкоштовне (  2-3 особи ) 	</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/slowakia-7.jpg" alt="slowakia-7" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різнорабочий на завод Seoyon ( КIA, HYUNDAI ) </h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> Вимоги: чоловіки, жінки, сімейні пари, віком від 18 до 55 років, на 3 місяці або з подачею на ВНЖ, повне БІО, довідка про несудимість + апостіль</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">Збір і комплектація авто деталей</li>
+												<li class="vacancy__oblige-item">oператор лінії виробництва</li>
+												<li class="vacancy__oblige-item">робота на складі </li>
+												<li class="vacancy__oblige-item">комплектування продукції </li>
+												<li class="vacancy__oblige-item">пакування деталей </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>  пн - пт ( сб по бажанню ) по  8 або 16 годин , 3 зміни, мін 250 годин в місяць 	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>від 3.2 до 3.4 євро за годину, після оформлення ВНЖ 3.7 євро за годину		</p>
+											<p class="vacancy__location"><span>Розташування: </span>Povazska Bystrica, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+					</div>
+					<div class="tab-pane fade" id="nav-holland" role="tabpanel" aria-labelledby="nav-holland-tab">
+							<p class="vacancy__desc">Тут ви можете переглянути доступні вакансіі у Голландії</p>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/term2.jpg" alt="term2" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Робота з декоративними саджанцями</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> жінки, віком від 18 до 50 років, відкрита польська віза від 4.5 місяці або готовність відкрити</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">1.5 - 2 місяці стажування у Польщі, потім відрядження на 3 місяці до Голландії</li>
+												<li class="vacancy__oblige-item">саджання декоративних саджанців,</li>
+												<li class="vacancy__oblige-item">збір врожаю</li>
+												<li class="vacancy__oblige-item">фасування саджанців</li>
+												<li class="vacancy__oblige-item">перебирання цибулин</li>
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - пт по 7-8 годин, в місяць від 160 годин
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>9 євро за годину</p>
+											<p class="vacancy__location"><span>Розташування: </span>Lottum, проживання - безкоштовно</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/holland-2.jpg" alt="holland-2" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочий на курячий завод </h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 50 років, відкрита польська віза від 4.5 місяці або готовність відкрити</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">1.5 - 2 місяці стажування у Польщі, потім відрядження на 3 місяці до Голландії </li>
+												<li class="vacancy__oblige-item">пакуванн курячого філе</li>
+												<li class="vacancy__oblige-item">філетування курячої грудки</li>
+												<li class="vacancy__oblige-item">більшість процесів автоматизовані</li>
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - пт по 9.5 годин, в місяць 180 - 200 годин 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>7.73 євро на годину</p>
+											<p class="vacancy__location"><span>Розташування: </span>Польща, Котово - Голландія, Найкерк. Проживання - 112 євро на тиждень 	</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/holland-3.jpg" alt="holland-3" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочі в теплиці </h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, віком від 18 до 55 років, відкрита польська віза від 4.5 місяці або готовність відкрити	 </p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">1.5 - 2 місяці стажування у Польщі, потім відрядження на 3 місяці до Голландії</li>
+
+												<li class="vacancy__oblige-item">догляд за саджанцями помідорів </li>
+												<li class="vacancy__oblige-item">збір врожаю </li>
+
+												<li class="vacancy__oblige-item">сортування та упаковка помідорів</li>											
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн-пн по 9 годин, 40-46 годин на тиждень 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>8.05 євро за годину </p>
+											<p class="vacancy__location"><span>Розташування: </span>Steenbergen, проживання -  по 2-3 особи в кімнаті, входить доїзд - 112 євро на тиждень </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/holland-4.jpg" alt="holland-4" class="vacancy__img">
+											</div>
+										</div>
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">М'ясник на розбирання яловичини	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, з досвідом роботи, віком від 19 до 50 років, відкрита польська віза від 4.5 місяці або готовність відкрити</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">1.5 - 2 місяці стажування у Польщі, потім відрядження на 3 місяці до Голландії </li>
+												<li class="vacancy__oblige-item">розбірка яловичини ножем	 </li>
+												<li class="vacancy__oblige-item">розбірка яловичини механічними пилами 	</li>
+												<li class="vacancy__oblige-item">розбірка туші, напівтуші, четвертин для обвалювання мяса </li>
+												<li class="vacancy__oblige-item">відділення мишців, жирових плівок 		</li>
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - пт по 8 годин , 160 годин на місяць 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>10.70 євро на годину 	</p>
+											<p class="vacancy__location"><span>Розташування: </span>Найкерк, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-schweiz" role="tabpanel" aria-labelledby="nav-schweiz-tab">
+							<p class="vacancy__desc">Тут ви можете переглянути доступні вакансіі у Швеції</p>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/sw.jpg" alt="schweiz" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Клінінгова компанія	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>Вимоги: жінки, віком від 18 до 45 років ( Українці, Білоруси ) з мінімальним знанням англійської мови, повне БІО або польська віза</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">прибирання квартир, офісів, будинків </li>
+												<li class="vacancy__oblige-item">прибирання житлових та технічних приміщень</li>
+												<li class="vacancy__oblige-item">прибирання після ремонту,    миття вікон </li>
+												<li class="vacancy__oblige-item">сухе та вологе прибирання ,  виніс сміття </li>
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 8 - 10 годин , без нічних змін
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>5.8 евро за годину, з другого місяця 6.6 євро за годину</p>
+											<p class="vacancy__location"><span>Розташування: </span>Гетеборг,  проживання - безкоштовно  </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-italy" role="tabpanel" aria-labelledby="nav-italy-tab">
+							<p class="vacancy__desc">Тут ви можете переглянути доступні вакансіі в Італії</p>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/term4.jpg" alt="term4" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Робота в готелях	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> жінки, сімейні пари, віком від 18 до 45 років ( старші за домовленістю )  наявність польської візи або готовність відкрити</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">прибирання в номерах</li>
+												<li class="vacancy__oblige-item">прибирання  коридорів, сходів</li>
+												<li class="vacancy__oblige-item">заміна постільної білизни, миття вікон</li>
+												<li class="vacancy__oblige-item">підготування столів та стульців для буфета та приймання їжі</li>
+												<li class="vacancy__oblige-item">прибирання приміщення</li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - сб по 8 годин, 200 годин в місяць, без нічних змін
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>1000 євро ставка в місяць</p>
+											<p class="vacancy__location"><span>Розташування: </span>Верона, Черво, Мілан, Венеція, проживання - 100 євро + 1 харчування </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-hungary" role="tabpanel" aria-labelledby="nav-hungary-tab">
+							<p class="vacancy__desc">Тут ви можете переглянути доступні вакансіі в Угорщині</p>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<img src="images/work/hungary-1.jpg" alt="hungary"  class="vacancy__img">
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Робітники на виробництво  телевізорів Samsung</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">монтаж деталей</li>
+												<li class="vacancy__oblige-item">пакування елементів</li>
+												<li class="vacancy__oblige-item">переміщення делатей по складу</li>
+												<li class="vacancy__oblige-item">контоль якості </li>
+												<li class="vacancy__oblige-item">перевірка деталей на брак </li>
+												<li class="vacancy__oblige-item">комплектація кінцевого продукту  </li>
+
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн-пт 8- годинна зміна - 06:00 – 14:30; 12- годинна зміна - 06:00 – 18:00, 18:00 – 06:00. Щотижня обмін між змінами.		</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span> 180 000 форинтів (є бонуси) на карточку</p>
+											<p class="vacancy__location"><span>Розташування: </span>Угорщина, Ясфеньсару, Яс-Надькун-Сольнок, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/hungary-2.jpg" alt="hungary-2" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочий на завод Flextronics International Kft</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО </p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">збірка електронних компонентів (модулів GPS)</li>
+												<li class="vacancy__oblige-item">дотримання робочих інструкцій 		</li>
+												<li class="vacancy__oblige-item">дотримання правил внутрішнього розпорядку 		</li>
+												<li class="vacancy__oblige-item">комп'ютерні навички</li>
+
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span> пн - пт по 8 годин ( 3 зміни )  Є понаднормова робота на вихідних	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>200000 форинтів ( з бонусами )         </p>
+											<p class="vacancy__location"><span>Розташування: </span>Zalaegerszeg, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/hungary-3.jpg" alt="hungary-3" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочий на завод Coloplast	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> жінки, сімейні пари, віком від 18 до 50 років, повне БІО</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">робота в стирильних цехах </li>
+												<li class="vacancy__oblige-item">робота на лінії </li>
+												<li class="vacancy__oblige-item">фасування медичних засобів</li>
+												<li class="vacancy__oblige-item">відкидування браку</li>
+												<li class="vacancy__oblige-item">контроль якості </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - пт по 8 годин,  3 зміни ,   сб - понаднормова оплата . 	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>200000 форинтів + бонуси 		</p>
+											<p class="vacancy__location"><span>Розташування: </span>Татабанье, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/hungary-4.jpg" alt="hungary-4" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочий на завод Jabil Circuit	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 40 років, повне БІО</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">виготовлення компонентів до електронної техніки</li>
+												<li class="vacancy__oblige-item">Виготовлення плат до різних електронних приладів (ноутбуки, планшети, телевізори і т.д.)	</li>
+												<li class="vacancy__oblige-item">мінімальне розуміння компьютера чи ноутбука, базові навички  </li>
+												<li class="vacancy__oblige-item">візуальний огляд, тестування плат	</li>
+												<li class="vacancy__oblige-item">виявлення або виправлення виявлених несправностей</li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - пт по 12 годин, 2 зміни, можливі понаднормові години, в місяць  178 годин
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>Зарплата - 190000 форинтів + бонуси </p>
+											<p class="vacancy__location"><span>Розташування: </span>Тисауйвароше, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-estonia" role="tabpanel" aria-labelledby="nav-estonia-tab">
+							<p class="vacancy__desc">Вакансії у країнах Прибалтики</p>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/pri1.jpg" alt="pribaltika" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочі на склади, ЛИТВА	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>жінки, чоловіки, сімейні пари, віком від 18 до 45 років, повне БІО, польська чи литовська віза, або готовність відкрити</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">наклеювання етикеток на коробки</li>
+												<li class="vacancy__oblige-item">маркування продукції</li>
+												<li class="vacancy__oblige-item">перепакування товару в коробки</li>
+												<li class="vacancy__oblige-item">контроль якості </li>
+												<li class="vacancy__oblige-item">вміння працювати в команді </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10-12 годин	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>від 4 євро до 5 євро за годину, залежить від ефективності </p>
+											<p class="vacancy__location"><span>Розташування: </span>Литва, Вільнюс, проживання - від 100 до 140 євро на місяць, квартири, по 2-3 особи в кімнаті	</p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/pri2.jpg" alt="pribaltika" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочі на переробку равликів,  ЛИТВА</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>жінки, сімейні пари, віком від 18 до 50 років, повне БІО, польська чи литовська віза, або готовність відкрити литовську чи польську візи</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">калібрування равликів</li>
+												<li class="vacancy__oblige-item">мийка та сушка </li>
+												<li class="vacancy__oblige-item">виймання з мушлі </li>
+												<li class="vacancy__oblige-item">очищення, пакування кінцевого продукта </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - пт по 10 годин, сб при замовлені 	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>ставка 650 євро + бонус від виробітку , в середнтому 250 євро</p>
+											<p class="vacancy__location"><span>Розташування: </span>Литва, Вільнюс, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/pri3.jpg" alt="pribaltika" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочі на склад Б/У техніки, ЛИТВА</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, віком від 18 до 50 років, повне БІО, польська або литовська віза</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">розбирання Б/У техніки на дрібні деталі 	</li>
+												<li class="vacancy__oblige-item">сортування деталей</li>
+												<li class="vacancy__oblige-item">перебирання деталей </li>
+												<li class="vacancy__oblige-item">відкидування на утилізацію </li>
+												<li class="vacancy__oblige-item">розвантаження Б/У техніки з контейнерів </li>
+												<li class="vacancy__oblige-item">робота в приміщені та на вулиці </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 8 - 12 годин, без нічних змін 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>3.5 євро за годину, 200-220 годин в місяць 	</p>
+											<p class="vacancy__location"><span>Розташування: </span>Литва, Вільнюс, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/pri4.jpg" alt="pribaltika" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочі на підприємство по виготовленню напівфабрикатів з морепродуктів, ЛИТВА</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки, сімейні пари, віком від 18 до 55 років, польська чи литовська віза, або готовність відкрити литовську чи польську візи	</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">оброблення морепродуктів </li>
+												<li class="vacancy__oblige-item">чищення та миття </li>
+												<li class="vacancy__oblige-item">пакування кінцевого продукту</li>
+												<li class="vacancy__oblige-item">підтримування чистоти на робочому місці </li>
+												<li class="vacancy__oblige-item">є автоматизовані процеси </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10-12 годин, без нічних змін, від 220 - 260 годин в місяць 
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span> 3.5 євро на годину </p>
+											<p class="vacancy__location"><span>Розташування: </span>Литва, Вільнюс, проживання -  безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="row mb">
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/pri5.jpg" alt="pribaltika" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочі на шпротний завод, ЛАТВІЯ	</h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span>чоловіки, жінки ,сімейні пари, віком від 18 до 55 років, повне БІО або польська віза</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">фасування шпротів</li>
+												<li class="vacancy__oblige-item">упаковка в коробки</li>
+												<li class="vacancy__oblige-item">укладання рибних філе </li>
+												<li class="vacancy__oblige-item">пакування кінцевого продукту </li>
+												<li class="vacancy__oblige-item">підтримування чистоти на робочому місці </li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн-сб по 10-12 годин, в місяць 220-240 годин ( є надгодини ) 	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span>3.5 євро на годину</p>
+											<p class="vacancy__location"><span>Розташування: </span>Латвія, Рига, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-lg-6 vacancy__block-wrap">
+									<div class="vacancy__block">
+										<div class="row vacancy__img-wrap">
+											<div class="col-12">
+												<img src="images/work/pri6.jpg" alt="pribaltika" class="vacancy__img">
+											</div>
+										</div>
+
+
+										<div class="vacancy__wrap">
+											<h3 class="vacancy__name">Різноробочі на склади, фабрики, ЕСТОНІЯ </h3>
+											<p class="vacancy__requirement"><span>Вимоги: </span> чоловіки, жінки, сімейні пари, віком від 18 до 55 років, повне БІО або польська віза, з можливістю оформленням естонської візи</p>
+											<p class="vacancy__oblige">Обов'язки:</p>
+											<ul class="vacancy__oblige-list">
+												<li class="vacancy__oblige-item">фасування, пакування, стікерування</li>
+												<li class="vacancy__oblige-item">переміщення товару по складу </li>
+												<li class="vacancy__oblige-item">складання товару на палети</li>
+												<li class="vacancy__oblige-item">збирання товару по накладній </li>
+												<li class="vacancy__oblige-item">пакування кінцевого продукту</li>
+												<li class="vacancy__oblige-item">перевірка термінів придатності</li>
+												<li class="vacancy__oblige-item"></li>
+											</ul>
+											<p class="vacancy__schedule"><span>Графік роботи: </span>пн - сб по 10 годин, 220-240 годин в місяць	
+											</p>
+											<p class="vacancy__sallary"><span>Заробітна плата: </span> від 4 євро за годину </p>
+											<p class="vacancy__location"><span>Розташування: </span>Таллінн, Естонія, проживання - безкоштовно </p>
+											<a href="#contact-anchor" class="vacancy__anchor">Мені цікаво</a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-insurance" role="tabpanel" aria-labelledby="nav-insurance-tab">
+							<p class="vacancy__desc">Послуги страхування для візового режиму</p>
+							<div class="vacancy__insurance-wrap">
+								<ul class="vacancy__insurance-list">
+									<li class="vacancy__insurance-item">Cтрахування під відкриття візи на 180 днів - 600 - 800 грн</li>
+									<li class="vacancy__insurance-item">Cтрахування під відкриття візи на 270 днів - 1100 - 1200 грн</li>
+									<li class="vacancy__insurance-item">Cтрахування під відкриття візи на 365 днів - 1100 - 1200 грн</li>
+								</ul>
+							</div>
+							<p class="vacancy__desc">Послуги страхування для БІО режиму</p>
+							<div class="vacancy__insurance-wrap">
+								<ul class="vacancy__insurance-list">
+									<li class="vacancy__insurance-item">Cтрахування від 7 днів -  від 100 грн</li>
+
+								</ul>
+							</div>
+							<p class="vacancy__desc">Послуги АВТОСТРАХУВАННЯ</p>
+							<div class="vacancy__insurance-wrap">
+								<ul class="vacancy__insurance-list">
+									<li class="vacancy__insurance-item">АВТОЦИВІЛКА  -  від 600 грн</li>
+
+								</ul>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-dovidka" role="tabpanel" aria-labelledby="nav-dovidka-tab">
+							<p class="vacancy__desc">Довідка про несудимість + апостіль</p>
+							<div class="vacancy__insurance-wrap">
+
+
+								<ul class="vacancy__insurance-list">
+									<li class="vacancy__insurance-item">З України термінова 3 - 4 дні - 1200 грн</li>
+									<li class="vacancy__insurance-item">З України не термінова 10 робочих днів - 1000 грн</li>
+									<li class="vacancy__insurance-item">З Польщі термінова 1 день - 1500 грн</li>
+									<li class="vacancy__insurance-item">З Чехії термінова 2 - 3 дні - 1900 грн</li>
+								</ul>
+
+							</div>	
+						</div>
+						<div class="tab-pane fade" id="nav-visa" role="tabpanel" aria-labelledby="nav-visa-tab">
+							<p class="vacancy__desc">Візи та анкети</p>
+							<div class="vacancy__visa-wrap">
+								<div class="vacancy__visa-block">
+									<img class="vacancy__visa-img" src="images/visapol.jpg" alt="visapol">
+									<h3 class="vacancy__visa-title">Польща <br>
+										<span>
+											(Віза на 6 міс.)
+										</span></h3>
+										<p class="vacancy__visa-price">
+											<span>3000</span> 2500 грн.
+										</p>
+									</div>
+									<div class="vacancy__visa-block">
+										<img class="vacancy__visa-img" src="images/visacz2.jpg" alt="visacz">
+										<h3 class="vacancy__visa-title">Чехія <br> <span>
+											(Віза на 3 міс.)
+										</span></h3>
+										<p class="vacancy__visa-price">
+											<span>6500</span> 5500 грн
+										</p>
+									</div>
+								</div>
+								<div class="vacancy__visa-wrap">
+									<div class="vacancy__visa-block">
+										<img class="vacancy__visa-img" src="images/visapol.jpg" alt="visapol">
+										<h3 class="vacancy__visa-title">Польща<br> <span>
+											(Віза на 9 міс.)
+										</span></h3>
+										<p class="vacancy__visa-price">
+											3500 грн.
+										</p>
+									</div>
+									<div class="vacancy__visa-block">
+										<img class="vacancy__visa-img" src="images/visapol.jpg" alt="visacz">
+										<h3 class="vacancy__visa-title">Польща<br> <span>
+											(річна віза)
+										</span></h3>
+										<p class="vacancy__visa-price">
+											5000 грн
+										</p>
+									</div>
+								</div>
+
+
+								<div class="vacancy__insurance-wrap">
+									<ul class="vacancy__insurance-list">
+										<li class="vacancy__insurance-item">Польська анкета - 100 грн</li>
+										<li class="vacancy__insurance-item">Чешська анкета - 100 грн</li>
+										<li class="vacancy__insurance-item">Мобільний оператор - 100 грн ( на рахунку 10 зл )</li>
+									</ul>
+								</div>
+							</div>
+							<h2 class="vacancy__desc vacancy__desc--green">Наші роботодавці</h2>
+							<div class="vacancy__work-slider">
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work1.png" alt="workplace" class="vacancy__work-img"></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work2.png" alt="workplace" class="vacancy__work-img vacancy__work-img--large"></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work8.png" alt="workplace" class="vacancy__work-img vacancy__work-img--large"></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work4.png" alt="workplace" class="vacancy__work-img "></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work5.png" alt="workplace" class="vacancy__work-img "></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work6.png" alt="workplace" class="vacancy__work-img "></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work7.png" alt="workplace" class="vacancy__work-img "></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work3.png" alt="workplace" class="vacancy__work-img vacancy__work-img--large"></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work9.png" alt="workplace" class="vacancy__work-img vacancy__work-img--large"></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work10.png" alt="workplace" class="vacancy__work-img vacancy__work-img--large"></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work11.png" alt="workplace" class="vacancy__work-img vacancy__work-img--large"></div>
+								<div class="vacancy__work-slide"><img src="images/work/work-slider/work12.png" alt="workplace" class="vacancy__work-img vacancy__work-img--large"></div>
+							</div>
+							<ul class="vacancy__work-arrows">
+								<div class="vacancy__work-prev">
+									<svg class="icon">
+										<use class="chevron-prev" xlink:href="#left-chevron"></use>
+									</svg>
+								</div>
+								<div class="vacancy__work-next">
+									<svg class="icon">
+										<use class ="chevron-next" xlink:href="#right-chevron"></use>
+									</svg>
+								</div>
+							</ul>
+						</div>
+					</section>
+					<section class="viber">
+						<div class="one-container">
+							<div class="row">
+
+								<div class="col-8 viber__title-wrap">
+									<h3 class="viber__title">
+										Приєднуйся у Viber до групи РОБОТА В ЄВРОПІ!
+									</h3>
+
+									<a href="https://invite.viber.com/?g2=AQB1OGOK2k6GD0lcRN9RbkxBU36gDMoud%2FJGrey3Nkd4tGc%2B%2BBDSKhmqxT8XaZMk" class="viber__button" target="_blank">Підписатися</a>
+								</div>
+								<div class="col-4 viber__img-wrap">
+									<img class="vier__img" src="images/viberqr.jpg" alt="viberqr">
+								</div>
+							</div>
+
+						</div>
+					</section>
+					<section class="contact">
+						<div id="contact-anchor" class="contact__title-wrap">
+							<h1 class="contact__title">КОНТАКТИ</h1>
+						</div>
+						<div class="one-container">
+							<p class="contact__desc">Цікаво? Якщо так, то залиште заявку. Ми Вам зателефонуємо! </p>
+							<div class="row">
+								<div class="col-md-12 col-lg-6 contact__block">
+									<div class="contact__form-wrap">
+										<h3 class="contact__form-title">заявка</h3>	
+										<form action="#" method="post" class="contact__form" autocomplete="off" id="requests_form">
+											<input type="text" name="name" class="contact__input" placeholder="Ваше ім'я..." maxlength="20" required>
+											<span class="hidden" id="name-error"></span>
+											<input type="tel" name="phone" id="phone" class="contact__input" placeholder="+380ХХХХХХХХX" required maxlength="13" minlength="13">
+											<span class="hidden" id="phone-error"></span>
+											<select class="contact__select" name="service" id="" required>
+												<option value="Польща">Польща</option>
+												<option value="Чехія">Чехія</option>
+												<option value="Словаччина">Словаччина</option>
+												<option value="Голландія">Голландія</option>
+												<option value="Швеція">Швеція</option>
+												<option value="Італія">Італія</option>
+												<option value="Угорщина">Угорщина</option>
+												<option value="Прибалтика">Прибалтика</option>
+												<option value="Візи">Візи та анкети</option>
+												<option value="Страхування">Страхування</option>
+											</select>
+											<span class="hidden" id="service-error"></span>
+											<span class="hidden" id="status"></span>
+											<button type="submit" class="contact__button">Відправити</button>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-6 contact__block">
+									<div class="contact__info">
+										<h3 class="contact__info-title">Контактна інформація</h3>
+										<div class="contact__info-block">
+											<h3 class="contact__subtitle">Адреса</h3>
+											<p class="contact__address">Полтава, площа Слави 5 <br> (приміщення автовокзалу)</p>
+										</div>
+										<div class="contact__info-block">
+											<h3 class="contact__subtitle">Графік роботи офісу</h3>
+											<p class="contact__schedule"><span style="color: #000">ПН-ПТ</span>З 8:30 до 17:30</p>
+											<p class="contact__schedule"><span>СБ</span>за домовленістю</p>
+											<p class="contact__schedule"><span>НД</span>вихідний</p>
+										</div>
+										<div class="contact__info-block">
+											<h3 class="contact__subtitle">Номери телефону</h3>
+											<ul class="contact__telephone-list">
+												<li class="contact__telephone"><img src="images/vodaphone.png" alt="operatorimg"><a href="tel:+380991004455 " class="contact__telephone-link">+380991004455</a></li>
+
+												<li class="contact__telephone"><img src="images/kyivstar.png" alt="operatorimg"><a href="tel:+380981004455 " class="contact__telephone-link">+380981004455</a></li>
+												<li class="contact__telephone"><img src="images/lifecell.png" alt="operatorimg"><a href="tel:+380731004455 " class="contact__telephone-link">+380731004455</a></li>
+											</ul>
+										</div>
+										<div class="contact__info-block">
+											<ul class="contact__social-list">
+												<li class="contact__social"><a href="#" target="_blank" class="contact__social-link"><img src="images/fb.png" alt="social"></a></li>
+												<li class="contact__social"><a href="#" target="_blank" class="contact__social-link"><img src="images/insta.png" alt="social"></a></li>
+												<li class="contact__social"><a target="_blank" href="https://invite.viber.com/?g2=AQB1OGOK2k6GD0lcRN9RbkxBU36gDMoud%2FJGrey3Nkd4tGc%2B%2BBDSKhmqxT8XaZMk" class="contact__social-link"><img src="images/viber.png"  alt="social"></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</section>
+
+			</main>
+			<footer class="footer">
+				<div class="one-container">
+					<div class="footer__wrap">
+						<div class="footer__copy"><span>VIAR WORK</span></div>
+						<div class="footer__logo">
+							<a href="#" class="footer__logo-link"><img src="images/logo.png" alt="logo" class="footer__logo-img"></a>
+						</div>
+						<div class="footer__quote">Найкраща <br>робота для <br> <span>ВАС</span></div>
+					</div>
+
+				</div>
+
+			</footer>
+			<!-- Scripts -->
+			<script src="js/libs/jquery-3.4.1.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+			<script src="js/sendRequest.js"></script>
+			<script src="js/libs/imask.js"></script>
+			<script src="js/main.js"></script>
+			<script type="text/javascript" src="js/libs/slick.min.js"></script>
+		</body>
+		</html>
